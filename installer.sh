@@ -3,7 +3,7 @@ cd Python-2.7.13
 ./configure --prefix=$HOME/Python
 make
 make install
-export PATH=$HOME/Python/bin/python:$PATH
+export PATH=$HOME/Python/bin:$PATH
 
 cd ..
 rm -rf Python-2.7.13*
